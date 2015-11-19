@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DummyView.h
 //  DraggableViewControllerDemo
 //
 //  Created by saiday on 11/19/15.
@@ -8,9 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface DummyView : UIView
 
-@property (nonatomic) BOOL disableInteractivePlayerTransitioning;
+@property (nonatomic, weak) UIButton *button;
 
 @end
-
